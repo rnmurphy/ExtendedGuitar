@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler minVersion="1.8.0" tuningSclFile="Tuning/24 equal divisions of 2_1.scl"> <!--24-TET Tuning-->
+
+<groups seqMode="random" ampVelTrack="1" ><!--Random selection of round-robin samples. Velocity tracking on-->
+<!--Samples for "Mono" setting-->
+<group  name="SamplesMono" seqLength="4"> <!--4 round-robins per sample-->
+  <!--Samples with two velocity layers - V1/V2-->
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR1.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="1"/>    <!--1st round-robin, 1st velocity layer-->
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR1.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="1"/>  <!--1st round-robin, 2nd velocity layer-->
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR2.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="2"/>    <!--2nd round-robin, 1st velocity layer-->
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR2.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="2"/>  <!--2nd round-robin, 2nd velocity layer-->
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR3.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR3.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR4.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR4.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR1.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR1.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR2.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR2.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR3.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR3.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR4.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR4.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR1.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR1.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR2.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR2.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR3.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR3.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR4.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR4.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR1.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR1.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR2.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR2.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR3.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR3.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR4.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR4.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR1.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR1.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR2.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR2.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR3.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR3.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR4.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR4.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR1.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR1.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR2.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR2.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR3.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR3.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR4.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR4.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR1.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR1.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR2.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR2.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR3.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR3.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR4.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR4.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR1.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR1.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR2.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR2.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR3.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR3.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR4.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR4.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR1.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR1.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR2.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR2.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR3.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR3.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR4.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR4.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR1.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR1.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR2.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR2.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR3.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR3.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="3"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR4.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="4"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR4.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="4"/>
+
+<!-- Samples without velocity layers -->
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR1.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR2.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR3.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR4.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR1.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR2.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR3.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR4.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR1.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR2.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR3.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR4.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR1.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR2.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR3.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR4.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR1.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR2.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR3.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR4.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR1.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR2.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR3.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR4.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR1.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR2.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR3.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR4.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR1.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR2.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR3.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR4.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR1.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR2.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR3.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR4.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="4" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR1.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR2.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR3.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="3" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR4.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="4" loVel="0" hiVel="127"/>
+      <effects>
+        <effect type="wave_shaper" drive="20" shape="0.328312486410141" outputLevel="1"/> <!--Adding drive for mono sample group-->
+      </effects>
+</group>
+
+
+
+
+<!--Samples for "Stereo" setting--> <!--2 round-robins play together with each key press-->
+<group  name="SamplesStereo" seqLength="2" tags="pan1"> <!--Assigned to "Pan 1"--> 
+<!--Samples with two velocity layers-->
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR1.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR1.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR2.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR2.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR1.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR1.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR2.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR2.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR1.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR1.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR2.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR2.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR1.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR1.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR2.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR2.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR1.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR1.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR2.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR2.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR1.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR1.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR2.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR2.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR1.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR1.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR2.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR2.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR1.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR1.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR2.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR2.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR1.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR1.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR2.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR2.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR1.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR1.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR2.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR2.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="2"/>
+
+<!-- Samples without velocity layers -->
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR1.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR2.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR1.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR2.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR1.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR2.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR1.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR2.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR1.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR2.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR1.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR2.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR1.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR2.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR1.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR2.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR1.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR2.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR1.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR2.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="2" loVel="0" hiVel="127"/>
+      <effects>
+        <effect type="wave_shaper" drive="20" shape="0.328312486410141" outputLevel="1"/> <!--Adding drive for first stereo sample group-->
+      </effects>
+</group>
+
+<group  name="SamplesStereo" seqLength="2" tags="pan2"> <!--Assigned to "Pan 2"-->
+<!--Samples with two velocity layers-->
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR3.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR3.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR4.wav" rootNote="40" loNote="28" hiNote="28" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR4.wav" rootNote="40" loNote="28" hiNote="28" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR3.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR3.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR4.wav" rootNote="43" loNote="29" hiNote="33" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR4.wav" rootNote="43" loNote="29" hiNote="33" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR3.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR3.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR4.wav" rootNote="46" loNote="34" hiNote="36" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR4.wav" rootNote="46" loNote="34" hiNote="36" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR3.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR3.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR4.wav" rootNote="49" loNote="37" hiNote="38" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR4.wav" rootNote="49" loNote="37" hiNote="38" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR3.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR3.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR4.wav" rootNote="52" loNote="39" hiNote="39" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR4.wav" rootNote="52" loNote="39" hiNote="39" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR3.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR3.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V1_RR4.wav" rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E1_40_V2_RR4.wav" rootNote="40" loNote="40" hiNote="40" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR3.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR3.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V1_RR4.wav" rootNote="43" loNote="41" hiNote="43" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/G1_43_V2_RR4.wav" rootNote="43" loNote="41" hiNote="43" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR3.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR3.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V1_RR4.wav" rootNote="46" loNote="44" hiNote="46" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Bb1_46_V2_RR4.wav" rootNote="46" loNote="44" hiNote="46" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR3.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR3.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V1_RR4.wav" rootNote="49" loNote="47" hiNote="49" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/Db2_49_V2_RR4.wav" rootNote="49" loNote="47" hiNote="49" loVel="50" hiVel="127" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR3.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR3.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="1"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V1_RR4.wav" rootNote="52" loNote="50" hiNote="52" loVel="0" hiVel="49" seqPosition="2"/>
+<sample path="Samples/Acoustic Buzz/E2_52_V2_RR4.wav" rootNote="52" loNote="50" hiNote="52" loVel="50" hiVel="127" seqPosition="2"/>
+
+<!-- Samples without velocity layers -->
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR3.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G2_55_V1_RR4.wav" rootNote="55" loNote="53" hiNote="55" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR3.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb2_58_V1_RR4.wav" rootNote="58" loNote="56" hiNote="58" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR3.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db3_61_V1_RR4.wav" rootNote="61" loNote="59" hiNote="61" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR3.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E3_64_V1_RR4.wav" rootNote="64" loNote="62" hiNote="64" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR3.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G3_67_V1_RR4.wav" rootNote="67" loNote="65" hiNote="67" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR3.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb3_70_V1_RR4.wav" rootNote="70" loNote="68" hiNote="70" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR3.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Db4_73_V1_RR4.wav" rootNote="73" loNote="71" hiNote="73" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR3.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/E4_76_V1_RR4.wav" rootNote="76" loNote="74" hiNote="76" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR3.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/G4_79_V1_RR4.wav" rootNote="79" loNote="77" hiNote="79" seqPosition="2" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR3.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="1" loVel="0" hiVel="127"/>
+<sample path="Samples/Acoustic Buzz/Bb4_82_V1_RR4.wav" rootNote="82" loNote="80" hiNote="88" seqPosition="2" loVel="0" hiVel="127"/>
+      <effects>
+        <effect type="wave_shaper" drive="20" shape="0.328312486410141" outputLevel="1"/> <!--Adding drive for second stereo sample group-->
+      </effects>
+</group>
+
+</groups>
+<!--User Interface-->
+<ui width="812" height="375" bgImage="Resources/AcousticBG5.jpg" > <!--Setting dimensions and background image-->
+<tab>
+  <!--Loading images-->
+    <image x="155" y="0" width="905" height="240" path="Resources/ABInfoSection2.png" aspectRatioMode="preserve"> 
+    </image>
+    <image x="61" y="132" width="80" height="80" path="Resources/GreyLight.png" aspectRatioMode="stretch">        
+    </image>
+    <image x="264" y="132" width="80" height="80" path="Resources/GreyLight.png" aspectRatioMode="stretch">
+    </image>
+    <image x="61" y="7" width="80" height="80" path="Resources/WhiteLight.png" aspectRatioMode="stretch">
+    </image>
+    <image x="264" y="7" width="80" height="80" path="Resources/WhiteLight.png" aspectRatioMode="stretch">
+    </image>
+    <image x="740" y="22" width="70" height="70" path="Resources/YellowLight.png" aspectRatioMode="stretch">
+    </image>
+    <image x="740" y="77" width="70" height="70" path="Resources/RedLight.png" aspectRatioMode="stretch">
+    </image>
+
+  <!--Controls-->
+    <control x="60" y="135" width="80" height="80" label="Pan1" minValue="-1.0" maxValue="1.0" value="-1.0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/Wood_Gear.png" customSkinNumFrames="37" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="group" tags="pan1" parameter="PAN" translation="linear" translationOutputMin="-100" translationOutputMax="100"  />
+   </control>
+    <control x="263" y="135" width="80" height="80" label="Pan2" minValue="-1.0" maxValue="1.0" value="1.0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/Wood_Gear.png" customSkinNumFrames="37" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="group" tags="pan2" parameter="PAN" translation="linear" translationOutputMin="-100" translationOutputMax="100"  />
+   </control>
+    <control x="60" y="10" width="80" height="80" label="Volume" minValue="0.0" maxValue="1" value="1" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/Wood_Gear.png" customSkinNumFrames="37" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1.0"  />
+    </control>
+    <control x="263" y="10" width="80" height="80" label="Tone" minValue="0.0" maxValue="1" value="1" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/Wood_Gear.png" customSkinNumFrames="37" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="effect" level="instrument" position="1" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000"/>
+   </control>
+    <control x="738" y="25" width="70" height="70" label="Convolution" minValue="0.0" maxValue="1" value="0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/Wood_Gear.png" customSkinNumFrames="37" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="table" translationTable="0,0;0.25,0.025;0.5,0.1;0.7,0.4;0.8,0.65;0.85,0.75;0.9,0.85;0.95,0.9;1,1"/>
+   </control>
+    <control x="738" y="80" width="70" height="70" label="Drive" minValue="1" maxValue="20" value="2" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/Wood_Gear.png" customSkinNumFrames="37" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="effect" level="group" groupIndex="0" effectIndex="0" parameter="FX_DRIVE" translation="linear"/>
+    <binding type="effect" level="group" groupIndex="1" effectIndex="0" parameter="FX_DRIVE" translation="linear"/>
+    <binding type="effect" level="group" groupIndex="2" effectIndex="0" parameter="FX_DRIVE" translation="linear"/>
+   </control>
+    <control x="558" y="140" width="70" height="70" label="Attack" minValue="0.0" maxValue="10.0" value="0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/WoodKnob.A1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="instrument" parameter="ENV_ATTACK"/>
+   </control>
+    <control x="618" y="140" width="70" height="70" label="Decay" minValue="0.1" maxValue="25.0" value="5.0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/WoodKnob.D1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="instrument" parameter="ENV_DECAY"/>
+   </control>
+    <control x="678" y="140" width="70" height="70" label="Sustain" minValue="0.0" maxValue="1.0" value="0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/WoodKnob.S1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="instrument" parameter="ENV_SUSTAIN"/>
+   </control>
+    <control x="738" y="140" width="70" height="70" label="Release" minValue="0.0" maxValue="25.0" value="3.0" parameterName="Test" type="float" style="custom_skin_vertical_drag"
+    customSkinImage="Resources/WoodKnob.R1.png" customSkinNumFrames="79" customSkinImageOrientation="vertical" mouseDragSensitivity="300" >
+    <binding type="amp" level="instrument" parameter="ENV_RELEASE"/>
+   </control>
+
+  <!--Mono/Stereo menu-->
+    <menu x="143" y="115"  width="120" height="30" requireSelection="true" placeholderText="Width" value="1">
+    <option name="Mono"><!--When Mono is selected...-->
+
+        <binding type="control" level="ui" position="1" parameter="path" translation="fixed_value" translationValue="Resources/GreyLight.png" /><!--Grey outline on panners-->
+        <binding type="control" level="ui" position="2" parameter="path" translation="fixed_value" translationValue="Resources/GreyLight.png" />
+
+        <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="true" /> <!--Activate Mono samples-->
+        <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" /><!--Deactivate Stereo samples-->
+        <binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="false" /><!--Deactivate Stereo samples-->
+
+    </option>
+
+    <option name="Stereo"><!--When Stereo is selected...-->
+
+        <binding type="control" level="ui" position="1" parameter="path" translation="fixed_value" translationValue="Resources/WhiteLight.png" /><!--White outline on panners-->
+        <binding type="control" level="ui" position="2" parameter="path" translation="fixed_value" translationValue="Resources/WhiteLight.png" />
+
+        <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="false" /><!--Deactive Mono samples-->
+        <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="true" /> <!--Activate Stereo samples-->
+        <binding type="general" level="group" position="2" parameter="ENABLED" translation="fixed_value" translationValue="true" /> <!--Activate Stereo samples-->
+
+    </option>
+    </menu>
+
+  <!--Convolution menu-->
+    <menu x="730" y="2"  width="80" height="30" requireSelection="true" placeholderText="Width" value="1">
+    <option name="1">
+      <binding type="control" level="ui" position="5" parameter="path" translation="fixed_value" translationValue="Resources/YellowLight.png"/>
+      <binding type="effect" level="instrument" position="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/IRBubbled.wav"/><!--Load 1st impulse response-->
+    </option>
+           
+    <option name="2">
+      <binding type="control" level="ui" position="5" parameter="path" translation="fixed_value" translationValue="Resources/BlueLight.png"/>
+      <binding type="effect" level="instrument" position="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/PitchDelayIR2.wav"/><!--2nd impulse response-->
+    </option>
+           
+    <option name="3">
+      <binding type="control" level="ui" position="5" parameter="path" translation="fixed_value" translationValue="Resources/PurpleLight.png"/>
+      <binding type="effect" level="instrument" position="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/SpaceFreqModPhaseIR2.wav"/><!--3rd impulse-->
+    </option>
+           
+    </menu>
+
+    <!--Click button to reveal info. Click to hide info-->
+    <button x="0" y="2"  width="60" height="40" style="text" value="0">
+        
+    <state name="Info">
+      <binding type="control" level="ui" position="0" parameter="path" translation="fixed_value" translationValue=""/>
+    </state>
+
+    <state name="Hide">
+      <binding type="control" level="ui" position="0" parameter="path" translation="fixed_value" translationValue="Resources/ABInfoSection2.png"/>
+    </state>
+
+   
+    </button>
+
+</tab>
+    <keyboard><!--Setting key colour-->
+      <color loNote="28" hiNote="88" color="FFDDAE80"/> 
+    </keyboard>
+</ui>
+<!--Loading effects-->
+<effects>
+  <effect type="convolution" irFile="IR/SpaceFreqModPhaseIR2.wav" mix="1"/> <!--Convolution. Impulse is selected via menu-->
+  <effect type="lowpass" frequency="22000"/>  <!--Lowpass filter controlled by 'Tone' knob-->
+</effects>
+  
+</DecentSampler>
